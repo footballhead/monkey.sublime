@@ -136,7 +136,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?i)\b(class)\s+([a-zA-Z_]\w*)(?:\s+(extends|implements)\s+([a-zA-Z_]\w*))(?:\s+(extends|implements)\s+([a-zA-Z_]\w*))?(?:\s+(final|abstract))?</string>
+			<string>(?i)\b(class)\s+([a-zA-Z_]\w*)(?:\s+(extends)\s+([a-zA-Z_]\w*))?(?:\s+(implements)\s+([a-zA-Z_]\w*))?(?:\s+(final|abstract))?</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -162,7 +162,7 @@
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.monkey</string>
+					<string>storage.modifier.implements.monkey</string>
 				</dict>
 				<key>6</key>
 				<dict>
