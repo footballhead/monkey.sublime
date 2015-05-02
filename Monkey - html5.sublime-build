@@ -7,5 +7,10 @@
 	"windows":
 	{
 		"cmd": ["trans_winnt.exe", "-target=html5", "-run", "\"$file\""]
+	},
+
+	"linux":
+	{
+		"cmd": ["transcc_linux", "-target=Html5_Game", "-run", "\"$file\""]
 	}
 }
